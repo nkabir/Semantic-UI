@@ -1,0 +1,199 @@
+/*!
+ * # Semantic UI 2.2.10 - Nag
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+<<<<<<< HEAD:build/uncompressed/modules/nag.css
+ * Copyright 2014 Contributors
+=======
+>>>>>>> upstream/master:dist/components/nag.css
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+<<<<<<< HEAD:build/uncompressed/modules/nag.css
+=======
+
+
+>>>>>>> upstream/master:dist/components/nag.css
+/*******************************
+             Nag
+*******************************/
+.ui.nag {
+  display: none;
+  opacity: 0.95;
+  position: relative;
+  top: 0em;
+  left: 0px;
+  z-index: 999;
+  min-height: 0em;
+  width: 100%;
+  margin: 0em;
+  padding: 0.75em 1em;
+  background: #555555;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  text-align: center;
+<<<<<<< HEAD:build/uncompressed/modules/nag.css
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 0px 0px 5px 5px;
+  -webkit-transition: 0.2s background;
+  -moz-transition: 0.2s background;
+  transition: 0.2s background;
+=======
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  -webkit-transition: 0.2s background ease;
+  transition: 0.2s background ease;
+>>>>>>> upstream/master:dist/components/nag.css
+}
+a.ui.nag {
+  cursor: pointer;
+}
+.ui.nag > .title {
+  display: inline-block;
+  margin: 0em 0.5em;
+  color: #FFFFFF;
+}
+.ui.nag > .close.icon {
+  cursor: pointer;
+  opacity: 0.4;
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  font-size: 1em;
+  margin: -0.5em 0em 0em;
+  color: #FFFFFF;
+<<<<<<< HEAD:build/uncompressed/modules/nag.css
+  -webkit-transition: 0.1s opacity;
+  -moz-transition: 0.1s opacity;
+  transition: 0.1s opacity;
+}
+/*******************************
+             States
+*******************************/
+=======
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+
+/*******************************
+             States
+*******************************/
+
+
+>>>>>>> upstream/master:dist/components/nag.css
+/* Hover */
+.ui.nag:hover {
+  background: #555555;
+  opacity: 1;
+}
+.ui.nag .close:hover {
+  opacity: 1;
+}
+<<<<<<< HEAD:build/uncompressed/modules/nag.css
+/*******************************
+           Variations
+*******************************/
+=======
+
+
+/*******************************
+           Variations
+*******************************/
+
+
+>>>>>>> upstream/master:dist/components/nag.css
+/*--------------
+     Static
+---------------*/
+.ui.overlay.nag {
+  position: absolute;
+  display: block;
+}
+/*--------------
+     Fixed
+---------------*/
+.ui.fixed.nag {
+  position: fixed;
+}
+/*--------------
+     Bottom
+---------------*/
+<<<<<<< HEAD:build/uncompressed/modules/nag.css
+.ui.bottom.nag {
+  border-radius: 5px 5px 0px 0px;
+}
+.ui.fixed.bottom.nags,
+.ui.fixed.bottom.nag {
+=======
+
+.ui.bottom.nags,
+.ui.bottom.nag {
+  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+>>>>>>> upstream/master:dist/components/nag.css
+  top: auto;
+  bottom: 0em;
+}
+/*--------------
+     White
+---------------*/
+<<<<<<< HEAD:build/uncompressed/modules/nag.css
+.ui.white.nags .nag,
+.ui.white.nag {
+  background-color: #F1F1F1;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);
+  color: #ACACAC;
+}
+.ui.white.nags .nag .close,
+.ui.white.nags .nag .title,
+.ui.white.nag .close,
+.ui.white.nag .title {
+  color: #333333;
+}
+=======
+
+.ui.inverted.nags .nag,
+.ui.inverted.nag {
+  background-color: #F3F4F5;
+  color: rgba(0, 0, 0, 0.85);
+}
+.ui.inverted.nags .nag .close,
+.ui.inverted.nags .nag .title,
+.ui.inverted.nag .close,
+.ui.inverted.nag .title {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+
+>>>>>>> upstream/master:dist/components/nag.css
+/*******************************
+           Groups
+*******************************/
+.ui.nags .nag {
+<<<<<<< HEAD:build/uncompressed/modules/nag.css
+  border-radius: 0px;
+}
+=======
+  border-radius: 0em !important;
+}
+.ui.nags .nag:last-child {
+  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+}
+.ui.bottom.nags .nag:last-child {
+  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+}
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+
+/*******************************
+        User Overrides
+*******************************/
+
+>>>>>>> upstream/master:dist/components/nag.css

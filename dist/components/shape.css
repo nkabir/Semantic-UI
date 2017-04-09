@@ -1,0 +1,211 @@
+/*!
+ * # Semantic UI 2.2.10 - Shape
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+<<<<<<< HEAD:build/uncompressed/modules/shape.css
+ * Copyright 2014 Contributors
+=======
+>>>>>>> upstream/master:dist/components/shape.css
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+<<<<<<< HEAD:build/uncompressed/modules/shape.css
+=======
+
+
+>>>>>>> upstream/master:dist/components/shape.css
+/*******************************
+              Shape
+*******************************/
+.ui.shape {
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  -webkit-perspective: 2000px;
+<<<<<<< HEAD:build/uncompressed/modules/shape.css
+  -moz-perspective: 2000px;
+  -ms-perspective: 2000px;
+  perspective: 2000px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ui.shape .sides {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+=======
+          perspective: 2000px;
+  -webkit-transition: left 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  transition: left 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, left 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, left 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}
+.ui.shape .sides {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+>>>>>>> upstream/master:dist/components/shape.css
+}
+.ui.shape .side {
+  opacity: 1;
+  width: 100%;
+  margin: 0em !important;
+  -webkit-backface-visibility: hidden;
+<<<<<<< HEAD:build/uncompressed/modules/shape.css
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+=======
+          backface-visibility: hidden;
+>>>>>>> upstream/master:dist/components/shape.css
+}
+.ui.shape .side {
+  display: none;
+}
+<<<<<<< HEAD:build/uncompressed/modules/shape.css
+=======
+.ui.shape .side * {
+  -webkit-backface-visibility: visible !important;
+          backface-visibility: visible !important;
+}
+
+
+>>>>>>> upstream/master:dist/components/shape.css
+/*******************************
+             Types
+*******************************/
+.ui.cube.shape .side {
+  min-width: 15em;
+  height: 15em;
+  padding: 2em;
+  background-color: #E6E6E6;
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+.ui.cube.shape .side > .content {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+.ui.cube.shape .side > .content > div {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 2em;
+}
+<<<<<<< HEAD:build/uncompressed/modules/shape.css
+=======
+
+
+>>>>>>> upstream/master:dist/components/shape.css
+/*******************************
+          Variations
+*******************************/
+.ui.text.shape.animating .sides {
+  position: static;
+}
+.ui.text.shape .side {
+  white-space: nowrap;
+}
+.ui.text.shape .side > * {
+  white-space: normal;
+}
+<<<<<<< HEAD:build/uncompressed/modules/shape.css
+/*******************************
+             States
+*******************************/
+=======
+
+
+/*******************************
+             States
+*******************************/
+
+
+>>>>>>> upstream/master:dist/components/shape.css
+/*--------------
+    Loading
+---------------*/
+.ui.loading.shape {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+/*--------------
+    Animating
+---------------*/
+.ui.shape .animating.side {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  z-index: 100;
+}
+.ui.shape .hidden.side {
+  opacity: 0.6;
+}
+/*--------------
+      CSS
+---------------*/
+<<<<<<< HEAD:build/uncompressed/modules/shape.css
+.ui.shape.animating {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+=======
+
+>>>>>>> upstream/master:dist/components/shape.css
+.ui.shape.animating .sides {
+  position: absolute;
+}
+.ui.shape.animating .sides {
+<<<<<<< HEAD:build/uncompressed/modules/shape.css
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+=======
+  -webkit-transition: left 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  transition: left 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, left 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, left 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+>>>>>>> upstream/master:dist/components/shape.css
+}
+.ui.shape.animating .side {
+  -webkit-transition: opacity 0.6s ease-in-out;
+  -moz-transition: opacity 0.6s ease-in-out;
+  transition: opacity 0.6s ease-in-out;
+}
+/*--------------
+     Active
+---------------*/
+.ui.shape .active.side {
+  display: block;
+}
+<<<<<<< HEAD:build/uncompressed/modules/shape.css
+=======
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+
+/*******************************
+        User Overrides
+*******************************/
+
+>>>>>>> upstream/master:dist/components/shape.css
